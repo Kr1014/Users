@@ -1,0 +1,35 @@
+*{
+    list-style-type: none;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(14,76,117);
+}
+
+.user-title{
+    margin-top: 20px;
+    margin-left: 80px;
+    color: white;
+    font-weight: bold;
+}
+
+.buttom-user{
+    position: relative;
+    left: 1120px;
+    bottom: 25px;
+}
+
+
+button{
+    padding: 6px 25px;
+    border-radius: 4px;
+    border: none;
+    background-color: rgba(99, 180, 255, 0.966);
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+}
+

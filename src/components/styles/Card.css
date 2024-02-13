@@ -1,0 +1,39 @@
+.container-card-user{
+    color: black;
+    background-color: white;
+    margin-top: 50px;
+    width: 330px;
+    border: 2px solid grey;
+    text-align: center;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.title-name{
+    font-size: 1.9rem;
+    border-bottom: 1px solid rgb(165, 165, 165);
+    margin-bottom: 30px;
+    padding: 10px;
+}
+
+ul li{
+    font-size: 1.1rem;
+}
+
+.list-data{
+    border-bottom: 1px solid grey;
+}
+
+.list-cumple{
+    padding-bottom: 30px;
+}
+
+.container-all-users{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(330px, 1fr));
+    place-items: center;
+}
+
+.buttom-delete, .buttom-edit{
+    margin: 20px 5px;
+}
